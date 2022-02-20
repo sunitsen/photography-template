@@ -1,0 +1,124 @@
+@media only screen and (max-width: 900px) {
+    .carousel-caption{
+      width: 100%;
+      bottom: -150px !important;
+      left: 0 !important;
+      top:0 !important;
+    }
+    .carousel-indicators{
+        display: none !important;
+    }
+    .hero .carousel-item .carousel-caption{
+      height: 115px;
+    }
+    .carousel-caption span{
+      display: none;
+    }
+    .carousel-caption p{
+      display: none;
+    }
+    .carousel-caption h5{
+      text-align: center;
+      font-size: 3.5rem !important;
+      transition: .5s ease;
+    }
+     .carousel-btn-group{
+     margin-top: 0 !important;
+      text-align: center;
+      transition: .5s ease;
+     
+    }
+    .carousel-control-next{
+        left: 50px !important;
+        right: 0 !important;
+       margin: auto;
+       transition: .5s ease;
+     }
+       .carousel-control-prev{
+        left: -60px !important;
+       right: 0 !important;
+       margin: auto;
+         transition: .5s ease;
+     }
+     .header-overlay{
+         display: none;
+     }
+     .container{
+         padding: 0;
+     }
+  }
+
+
+  @media only screen and (max-width: 900px){
+    .main-nav{
+      display: none;
+    }
+    .sidebar-menu{
+      display: block !important;
+      position: absolute;
+      z-index: 999;
+    }
+    .sidebar-menu .openbtn{
+      position: absolute;
+      right: 0;
+      top:0;
+      background: none;
+    }
+    .sidebar-menu img{
+      max-width: 150px;
+      padding: .5rem;
+   
+    }
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+	background: linear-gradient(to right, rgba(75, 122, 211, 0.801), rgb(0, 0, 0));
+
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
