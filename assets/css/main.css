@@ -260,8 +260,9 @@ color:black;
  background: white;
 }
 
-
-
+.content-box{
+  padding: 0rem .5rem;
+}
 .content-box .lead-headding{
   font-size: 2.3rem;
   max-width: 80%;
@@ -323,16 +324,16 @@ color:black;
   height: 400px;
   background: #2b2b2b;
   position: absolute;
-  top: 50px;
-  right: 95px; 
+  top: 13%;
+  right: -10%;
   z-index: -1;
 }
 .bg-img-box{
   width: 250px;
   height: 250px;
   position: absolute;
-  top:-30px;
-  left: 100px;
+  top: -7%;
+  left: -8%;
   z-index: -1;
 }
 .image-box{
@@ -368,10 +369,28 @@ color:black;
   line-height: 1.7;
   margin-bottom: 0;
 }
+.service-packages .col-xl-4{
+  border-right:1px solid #323232;
+  height: 250px;
+  border-bottom: 1px solid #323232;
 
-
-.service-item-single-nox{
-  border-right:2px solid red;
+  transition: .5s ease;
+}
+.service-packages .col-lg-4:hover{
+  background: #ffffff65;
+  cursor: pointer;
+}
+.service-item-inner h2{
+  margin-bottom: 0;
+}
+.service-packages .service-item-inner{
+  padding: 3rem 3rem 3rem 3rem;
+}
+.border-right-none{
+border-right: 0 !important;
+}
+.border-bottom-none{
+  border-bottom:0 !important;
 }
 .service-item-inner img{
 max-width: 30px;
@@ -380,7 +399,8 @@ max-width: 30px;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
-  margin-block: 1rem;
+  margin-top: 15px;
+ 
 }
 .service-item-inner p{
   max-width: 300px;
@@ -388,12 +408,26 @@ max-width: 30px;
   font-size: .9rem;
   font-weight: 600;
   margin-bottom: 0;
+  margin-top: 15px;
 }
-.service-item-single-nox{
-width: 30%;
-border-right: 1px solid;
-border-bottom: 1px solid;
-padding: 3rem;
+.service-packages .col-lg-4:nth-child(3){
+  border-right: 0;
+}
+.service-packages .col-lg-4:nth-child(4){
+  border-bottom: 0;
+}
+.service-packages .col-lg-4:nth-child(5){
+  border-bottom: 0;
+}
+.service-packages .col-lg-4:nth-child(6){
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.service-detail {
+  height: 50px;
+  overflow: hidden;
+  padding: .2rem .5rem .0rem .0rem;
 }
 .service-item-inner{
 /* background: red; */
@@ -580,7 +614,7 @@ padding: 3rem;
 }
 .isotop-overlay{
   position: absolute;
-  bottom: -90px;
+  bottom: -100px;
   background: #1b1b1b;
   padding: 1rem 0rem 1rem 0rem;
   transition: .5s ease;
@@ -669,7 +703,7 @@ padding: 3rem;
   display: flex;
   justify-content: left;
   align-items: center;
-
+  flex-wrap: wrap;
   max-width: 1120px;
   margin: auto;
 }
@@ -699,6 +733,7 @@ footer .section-title{
 }
 footer .subscribe-box{
   z-index: 111;
+  width: 100%;
 }
 footer .section-title h4{
   font-size: 1.5rem;
@@ -718,13 +753,15 @@ footer{
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   width: 200px;
-  padding: .85rem 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #1b1b1b;
+  height: 50px;
+  font-weight: 600;
+ 
 }
 .subscribe-box .form-control{
   border-radius: 50px;
-  padding: 1rem 1rem;
+  height: 50px;
   position: relative; 
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -732,9 +769,7 @@ footer{
   position: relative;
   color: #999999;
 }
-.subscribe-box .form-group{
-  width: 500px;
-}
+
 .form-control:focus{
    outline: none;
     box-shadow: none;
@@ -832,6 +867,7 @@ footer{
   height: 100%;
   top:0;
 }
+
 
 
 
