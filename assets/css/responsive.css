@@ -83,6 +83,10 @@
       padding: .5rem;
    
     }
+    body{
+      overflow-x: hidden;
+    
+    }
 }
 .sidebar {
   height: 100%;
@@ -215,5 +219,48 @@
     .opinion-box{
       padding-bottom: 13rem !important;
       margin-top: 0 !important;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 412px){
+    .carousel-inner{
+      box-shadow: none;
+    }
+    .content-box .lead-headding{
+      text-align: center;
+      font-size: 1.1rem !important;
+      margin: auto;
+    }
+    .content-box p{
+      text-align: center;
+      font-size: .9rem !important;
+    }
+    .content-box .list-group{
+     width: 80%;
+      margin: auto;
+  }
+    .author-box{
+      margin: auto;
+      width: 80%;
+    }
+    .bg-img-box{
+      display: none !important;
+    }
+    .image-box:after{
+      display: none !important;
+    }
+    .section-title h1{
+      text-align: center;
+    }
+    .section-title p{
+      text-align: center;
+    }
+    .section-title{
+      margin-top: 0 !important;
+    }
+    .isotop-btn-groyp li{
+      margin-top: 20px;
     }
   }
