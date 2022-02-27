@@ -19,6 +19,9 @@
       left: 0 !important;
       top:0 !important;
     }
+    .isotop-btn-groyp{
+      margin-left: 10px;
+    }
     .carousel-indicators{
         display: none !important;
     }

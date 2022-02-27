@@ -4,7 +4,6 @@ body{
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
     position: relative;
-    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -871,11 +870,18 @@ footer{
 
 
 
-
-
-
-
-
-
+.copyright p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+ position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+footer{
+  position: relative;
+}
 
 
